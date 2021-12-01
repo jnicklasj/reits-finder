@@ -7,7 +7,7 @@ import { Container } from '@chakra-ui/react';
 
 export default function Welcome(props) {
   return (
-    <Container maxW="container.sm">
+    <Container maxW="container.sm" px={0}>
       <Nav />
       <Search />
       <Findby />
